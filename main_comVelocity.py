@@ -37,7 +37,7 @@ saveOptimalTrajectories = True # Set True to save optimal trajectories
 # Select the case(s) for which you want to solve the associated problem(s) or
 # process the results. Specify the settings of the case(s) in the
 # 'settings' module.
-cases = [str(i) for i in range(6,7)] #Range starts at zero, ends before 1 by default
+cases = [str(i) for i in range(0,1)] #Range starts at zero, ends before 1 by default
         
 # Import settings.
 from settings import getSettings   
@@ -1974,4 +1974,5 @@ for case in cases:
         #                         "stride_length": stride_length_GC}              
         #     np.save(os.path.join(pathTrajectories, 'optimaltrajectories.npy'),
         #             optimaltrajectories)
+
 
