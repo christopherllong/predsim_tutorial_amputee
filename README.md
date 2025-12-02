@@ -4,7 +4,7 @@ This tutorial adapts the predictive simulation framework developed by [Antoine F
 
 The generated predictive simulations should look like this:
 <p align="center">
-  <img src="doc/images/PredictiveSimulation.gif">
+  <img src="doc/images/amputeeModel_comVelocityTerm_weight1000000.gif">
 </p>
 
 # Setup conda environment
