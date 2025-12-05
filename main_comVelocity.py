@@ -47,7 +47,7 @@ for case in cases:
     # %% Settings.    
     ###########################################################################
     # Model settings.
-    model = 'Hamner_modified_scaled_amp' # default model
+    model = 'Hamner_modified_amp' # default model
     if 'model' in settings[case]:
         model = settings[case]['model']
         
@@ -1974,5 +1974,6 @@ for case in cases:
         #                         "stride_length": stride_length_GC}              
         #     np.save(os.path.join(pathTrajectories, 'optimaltrajectories.npy'),
         #             optimaltrajectories)
+
 
 
